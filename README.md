@@ -1,5 +1,5 @@
 # Calculate Distance - React App
-A demo version of the app is also available at [https://site.com/](https://site.com/) for you to try out.
+A demo version of the app is also available at [https://harlov-va.github.io/calculateDistance](https://harlov-va.github.io/calculateDistance) for you to try out.
 
 Calculate Distance is a web application created using TypeScript and React that allows users to look for travel destinations and calculate the distances between them.
 
