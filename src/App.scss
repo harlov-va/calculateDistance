@@ -1,0 +1,20 @@
+body {
+  background-image: url("../public/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.mainContainer {
+  background-color: white;
+  display: flex;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3.8rem 0;
+  max-width: 70rem;
+  flex: 1 1 auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}

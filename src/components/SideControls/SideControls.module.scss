@@ -1,0 +1,19 @@
+.sideControls {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-items: flex-start;
+  row-gap: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .sideControls {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    flex-basis: 100%;
+    max-width: 35rem;
+    padding-left: 7rem;
+  }
+}
