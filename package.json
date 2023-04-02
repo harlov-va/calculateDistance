@@ -65,5 +65,6 @@
   },
   "devDependencies": {
     "jest-watch-typeahead": "^0.6.5"
-  }
+  },
+  "homepage": "."
 }
