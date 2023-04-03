@@ -12,7 +12,7 @@ export const App = () => {
 	dispatch(initInputsAction());
 
 	return (
-		<div className="mainContainer" role="mainContainer">
+		<div className="mainContainer" role="application">
 			<RouterProvider router={routers} />
 		</div>
 	);

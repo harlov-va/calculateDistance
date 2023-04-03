@@ -8,6 +8,6 @@ describe('<App>', () => {
 	it('renders the page title', async () => {
 		renderWithProviders(<App />);
 
-		expect(await screen.findByRole('mainContainer')).toBeInTheDocument();
+		expect(await screen.findByRole('application')).toBeInTheDocument();
 	});
 });
