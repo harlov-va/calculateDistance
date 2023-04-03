@@ -35,7 +35,7 @@ export const SideControls = (props: ISideControlsProps) => {
 							/>
 						</div>
 					);
-				case EInputTypes.DATE_TIME:
+				default:
 					return (
 						<div key={input.value.toString() + index}>
 							<CustomDatePicker onChange={handleUpdateDate} date={input.value as Date} />
